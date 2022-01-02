@@ -24,7 +24,7 @@ def main():
     parser = argparse.ArgumentParser(description='Bruteforce framework written in Python')  # Parameters
     required = parser.add_argument_group('required arguments')
     required.add_argument('-s', '--service', dest='service')
-    required.add_argument('-u', '--username', dest='username')
+    required.add_argument('-u', '--username', dest='shah Farooqi')
     required.add_argument('-w', '--wordlist', dest='password')
     parser.add_argument('-d', '--delay', type=int, dest='delay')
 
@@ -178,10 +178,11 @@ class Bruter(object):
 
                     WebDriverWait(driver, 30).until(lambda d: d.execute_script('return document.readyState') == 'complete')
 
-                    elem = driver.find_element_by_name("username")
+                    elem = driver.find_element_by_name(" Shah Farooqi")
 
                 elem.clear()
-                elem.send_keys(username)
+                elem.send_keys(shah Farooqi
+)
 
                 if service == "facebook":
 
